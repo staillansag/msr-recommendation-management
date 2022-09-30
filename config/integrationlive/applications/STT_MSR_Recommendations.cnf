@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="name">STT_MSR_Recommendations</value>
+    <value name="description">STT_MSR_RecommendationsManagement</value>
+    <number name="lastUploadedTime" type="java.lang.Long">1664433751500</number>
+    <number name="lastSavedTime" type="java.lang.Long">1664433752908</number>
+    <array name="packages" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="package">RecommendationManagement</value>
+        <array name="details" type="record" depth="1">
+          <record javaclass="com.wm.data.ISMemDataImpl">
+            <value name="serviceName">RecommendationManagement.services:getOrderRecommendations</value>
+            <value name="displayName">getOrderRecommendations</value>
+            <jboolean name="isShared">true</jboolean>
+            <jboolean name="useBatch">false</jboolean>
+          </record>
+        </array>
+      </record>
+    </array>
+    <array name="connections" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="connectionName">default_alias</value>
+        <value name="connectionStage">stage00</value>
+        <value name="tenantAlias">default</value>
+      </record>
+    </array>
+    <array name="tenantAliases" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="tenantAlias">default</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
